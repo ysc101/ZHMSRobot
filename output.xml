@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.12.3 on win32)" generated="2024-12-19T17:08:01.989597" rpa="false" schemaversion="5">
+<suite id="s1" name="Login" source="C:\Users\Yogesh.c\ZPFMSRobot\Tests\Login.robot">
+<test id="s1-t1" name="Verify Successful Login to LETCODE" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-12-19T17:08:02.201963" level="INFO">Opening browser 'chrome' to base url 'https://letcode.in/'.</msg>
+<arg>${LOGIN_URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-12-19T17:08:02.201963" elapsed="5.114703"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-12-19T17:08:07.317678" elapsed="0.044596"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-12-19T17:08:07.363276" level="INFO">Clicking element 'id:testing'.</msg>
+<arg>id:testing</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-12-19T17:08:07.363276" elapsed="0.113538"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-12-19T17:08:07.477813" elapsed="2.544897"/>
+</kw>
+<doc>This test case verifies that user is able to successfully Login to ZPFMS</doc>
+<tag>Smoke</tag>
+<status status="PASS" start="2024-12-19T17:08:02.201963" elapsed="7.820747"/>
+</test>
+<status status="PASS" start="2024-12-19T17:08:01.991126" elapsed="8.036672"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">Smoke</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Login">Login</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-12-19T17:08:02.201963" level="ERROR">Error in file 'C:\Users\Yogesh.c\ZPFMSRobot\Tests\Login.robot' on line 4: Importing library 'WebDriverManager' failed: ModuleNotFoundError: No module named 'WebDriverManager'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\Yogesh.c\ZPFMSRobot\.venv\Scripts\robot.exe
+  C:\Users\Yogesh.c\AppData\Local\Programs\Python\Python312\python312.zip
+  C:\Users\Yogesh.c\AppData\Local\Programs\Python\Python312\DLLs
+  C:\Users\Yogesh.c\AppData\Local\Programs\Python\Python312\Lib
+  C:\Users\Yogesh.c\AppData\Local\Programs\Python\Python312
+  C:\Users\Yogesh.c\ZPFMSRobot\.venv
+  C:\Users\Yogesh.c\ZPFMSRobot\.venv\Lib\site-packages</msg>
+</errors>
+</robot>
