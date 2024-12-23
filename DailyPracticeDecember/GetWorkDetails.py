@@ -19,5 +19,5 @@ if response.status_code==200:
         print("Response not in JSON")
 else:
     print("Response Code :",response.status_code)
-    print(f"Response text: ",{response.text})
+    print(f"Response text is: ",{response.text})
 
