@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/PythonPractice.iml" filepath="$PROJECT_DIR$/.idea/PythonPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Robot1/.idea/Robot1.iml" filepath="$PROJECT_DIR$/../Robot1/.idea/Robot1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Desktop/My_Data/Selenium-Python-Framework/.idea/Selenium-Python-Framework.iml" filepath="$PROJECT_DIR$/../Desktop/My_Data/Selenium-Python-Framework/.idea/Selenium-Python-Framework.iml" />
       <module fileurl="file://$PROJECT_DIR$/../ZPFMSRobot/.idea/ZPFMSRobot.iml" filepath="$PROJECT_DIR$/../ZPFMSRobot/.idea/ZPFMSRobot.iml" />
       <module fileurl="file://$PROJECT_DIR$/../ZPFMS_API_AUTOMATION/.idea/ZPFMS_API_AUTOMATION.iml" filepath="$PROJECT_DIR$/../ZPFMS_API_AUTOMATION/.idea/ZPFMS_API_AUTOMATION.iml" />
     </modules>

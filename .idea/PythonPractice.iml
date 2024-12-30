@@ -8,5 +8,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="ZPFMSRobot" />
     <orderEntry type="module" module-name="ZPFMS_API_AUTOMATION" />
+    <orderEntry type="module" module-name="Selenium-Python-Framework" />
+    <orderEntry type="module" module-name="Robot1" />
   </component>
 </module>
