@@ -1,77 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.1.1 (Python 3.12.3 on win32)" generated="2025-01-24T13:32:29.318617" rpa="false" schemaversion="5">
-<suite id="s1" name="Login" source="C:\Users\Yogesh.c\ZPFMSRobot\Tests\Login.robot">
+<robot generator="Robot 7.1.1 (Python 3.12.3 on win32)" generated="2025-01-27T10:21:09.995096" rpa="false" schemaversion="5">
+<suite id="s1" name="Login" source="C:\Users\Yogesh.c\ZPFMSRobot\Tests\login.robot">
 <test id="s1-t1" name="Verify Successful Login to ZPFMS" line="10">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2025-01-24T13:32:29.985932" level="INFO">Opening browser 'chrome' to base url 'http://192.168.0.162:9696/Login.aspx'.</msg>
+<msg time="2025-01-27T10:21:10.424198" level="INFO">Opening browser 'chrome' to base url 'http://192.168.0.162:9696/Login.aspx'.</msg>
 <arg>${LOGIN_URL}</arg>
 <arg>${BROWSER}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2025-01-24T13:32:29.985932" elapsed="7.338890"/>
+<status status="PASS" start="2025-01-27T10:21:10.424198" elapsed="6.684242"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2025-01-24T13:32:37.324822" elapsed="0.040682"/>
+<status status="PASS" start="2025-01-27T10:21:17.109433" elapsed="0.044567"/>
 </kw>
 <kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
 <arg>id:txtUser</arg>
 <arg>timeout=10</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" start="2025-01-24T13:32:37.365504" elapsed="0.251335"/>
+<status status="PASS" start="2025-01-27T10:21:17.154000" elapsed="0.150480"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-01-24T13:32:37.617867" level="INFO">Typing text 'Dbchavan' into text field 'id:txtUser'.</msg>
+<msg time="2025-01-27T10:21:17.305700" level="INFO">Typing text 'Dbchavan' into text field 'id:txtUser'.</msg>
 <arg>id:txtUser</arg>
 <arg>Dbchavan</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2025-01-24T13:32:37.617867" elapsed="0.093021"/>
+<status status="PASS" start="2025-01-27T10:21:17.305700" elapsed="0.108261"/>
 </kw>
 <kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
 <arg>id:txtPass</arg>
 <arg>timeout=10</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" start="2025-01-24T13:32:37.710888" elapsed="0.013809"/>
+<status status="PASS" start="2025-01-27T10:21:17.413961" elapsed="0.019065"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-01-24T13:32:37.724697" level="INFO">Typing text 'Pass@123' into text field 'id:txtPass'.</msg>
+<msg time="2025-01-27T10:21:17.433026" level="INFO">Typing text 'Pass@123' into text field 'id:txtPass'.</msg>
 <arg>id:txtPass</arg>
 <arg>Pass@123</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2025-01-24T13:32:37.724697" elapsed="0.079198"/>
+<status status="PASS" start="2025-01-27T10:21:17.433026" elapsed="0.073813"/>
 </kw>
 <kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
 <arg>xpath://*[@id="btnLogin"]</arg>
 <arg>timeout=10</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" start="2025-01-24T13:32:37.807139" elapsed="0.013225"/>
+<status status="PASS" start="2025-01-27T10:21:17.508118" elapsed="0.012190"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2025-01-24T13:32:37.823466" level="INFO">Clicking element 'xpath://*[@id="btnLogin"]'.</msg>
+<msg time="2025-01-27T10:21:17.521686" level="INFO">Clicking element 'xpath://*[@id="btnLogin"]'.</msg>
 <arg>xpath://*[@id="btnLogin"]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2025-01-24T13:32:37.823466" elapsed="0.967726"/>
+<status status="PASS" start="2025-01-27T10:21:17.520308" elapsed="1.223223"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2025-01-24T13:32:38.792274" level="INFO">Clicking element 'xpath://*[@id='ctl01']/div[contains(@class, 'page-header')]/div[contains(@class, 'page-header-menu')]/div/div/ul/li[3]/a'.</msg>
+<msg time="2025-01-27T10:21:18.743531" level="INFO">Clicking element 'xpath://*[@id='ctl01']/div[contains(@class, 'page-header')]/div[contains(@class, 'page-header-menu')]/div/div/ul/li[3]/a'.</msg>
 <arg>xpath://*[@id='ctl01']/div[contains(@class, 'page-header')]/div[contains(@class, 'page-header-menu')]/div/div/ul/li[3]/a</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2025-01-24T13:32:38.791192" elapsed="0.601583"/>
+<status status="PASS" start="2025-01-27T10:21:18.743531" elapsed="0.607767"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2025-01-24T13:32:39.392775" level="INFO">Clicking element 'xpath://*[@id="ctl01"]/div[5]/div[3]/div/div/ul/li[3]/ul/li[1]/a'.</msg>
+<msg time="2025-01-27T10:21:19.351298" level="INFO">Clicking element 'xpath://*[@id="ctl01"]/div[5]/div[3]/div/div/ul/li[3]/ul/li[1]/a'.</msg>
 <arg>xpath://*[@id="ctl01"]/div[5]/div[3]/div/div/ul/li[3]/ul/li[1]/a</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2025-01-24T13:32:39.392775" elapsed="0.509475"/>
+<status status="PASS" start="2025-01-27T10:21:19.351298" elapsed="0.388077"/>
 </kw>
 <kw name="Close Browser" owner="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2025-01-24T13:32:39.903251" elapsed="2.165708"/>
+<status status="PASS" start="2025-01-27T10:21:19.740385" elapsed="2.184429"/>
 </kw>
 <doc>This test case verifies that user is able to successfully Login to ZPFMS</doc>
 <tag>Smoke</tag>
-<status status="PASS" start="2025-01-24T13:32:29.984294" elapsed="12.084665"/>
+<status status="PASS" start="2025-01-27T10:21:10.422420" elapsed="11.502394"/>
 </test>
-<status status="PASS" start="2025-01-24T13:32:29.323957" elapsed="12.750147"/>
+<status status="PASS" start="2025-01-27T10:21:09.996146" elapsed="11.929671"/>
 </suite>
 <statistics>
 <total>
@@ -85,7 +85,7 @@
 </suite>
 </statistics>
 <errors>
-<msg time="2025-01-24T13:32:29.981517" level="ERROR">Error in file 'C:\Users\Yogesh.c\ZPFMSRobot\Tests\Login.robot' on line 3: Importing library 'WebDriverManager' failed: ModuleNotFoundError: No module named 'WebDriverManager'
+<msg time="2025-01-27T10:21:10.421461" level="ERROR">Error in file 'C:\Users\Yogesh.c\ZPFMSRobot\Tests\login.robot' on line 3: Importing library 'WebDriverManager' failed: ModuleNotFoundError: No module named 'WebDriverManager'
 Traceback (most recent call last):
   None
 PYTHONPATH:
